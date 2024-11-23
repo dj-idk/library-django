@@ -1,3 +1,4 @@
+import os
 from pathlib import Path
 
 
@@ -15,7 +16,7 @@ SECRET_KEY = "django-insecure-%sqci*nnz$65nmu_-td_xr=-^t!%vb_rw%10mhz81%6a@t1%2o
 DEBUG = True
 
 # Define ALLOWED_HOSTS, including the Railway domain and localhost for testing
-ALLOWED_HOSTS = [".railway.app","127.0.0.1", "localhost"]
+ALLOWED_HOSTS = [".railway.app", "127.0.0.1", "localhost"]
 
 
 # Application definition
